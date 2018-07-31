@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body ng-app="polls.demo">
+    <div ng_controller="pollscontroller">
+        {{person.name}} is {{person.age }} years old
+    </div>
+
+    <script>scr="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"</script>
+    <script>
+        (function(){
+            'use strict';
+            angular.module("polls.demo",[])
+                .controller("pollscontroller",['$scope',pollscontroller]);
+         function pollscontroller($scope){
+            $scope.person=
+            {
+            name:'Genesis',
+            age:1
+            };
+         }
+        }());
+    </script>
+</body>
+</html>
