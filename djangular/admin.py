@@ -10,3 +10,4 @@ from .models import card
 
 admin.site.register(List)
 admin.site.register(card)
+

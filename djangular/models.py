@@ -19,3 +19,5 @@ class card(models.Model):
 
     def __str__(self):
          return "card: {}".format(self.title)
+
+

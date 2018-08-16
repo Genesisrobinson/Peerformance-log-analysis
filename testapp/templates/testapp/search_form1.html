@@ -1,0 +1,8 @@
+<H1>hello</H1>
+{% if logs1 %}
+    {% for key, value in logs1.items  %}
+       {{value}}
+    {% endfor %}
+{% else %}
+    <H1>There are no logs present.</H1>
+{% endif %}

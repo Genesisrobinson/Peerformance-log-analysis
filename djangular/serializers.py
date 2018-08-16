@@ -11,4 +11,3 @@ class cardserializer(serializers.ModelSerializer):
     class Meta:
         model=card
         fields = '__all__'
-

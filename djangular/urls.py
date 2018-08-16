@@ -6,6 +6,7 @@ from . import views
 
 urlpatterns = [
     url(r'^list$',ListAPI.as_view()),
-    url(r'^card$',ListAPI.as_view()),
+    url(r'^card$',cardAPI.as_view()),
     url(r'^home$', TemplateView.as_view(template_name="djangular/home.html"))
+    
 ]
