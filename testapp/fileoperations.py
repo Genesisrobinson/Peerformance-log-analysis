@@ -3,11 +3,17 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from django.http import HttpResponse
-
-def fileop():
-    Folder='d:/report/'
-    R1="Final"
-    df1 = pd.read_excel('d:/report/MGM/result/Result2.xls',sheet_name ='Sheet1', na_values=['NA'])
+#Folder='/Users/genesisrobinson/Documents/Excel'
+#R1='Final'
+def fileop(a,b):
+    print("From File----")
+    print(a)
+    print(b)
+    Folder=a
+    R1=b
+    print(Folder)
+    print(R1)
+    df1 = pd.read_excel(str(Folder) + "/" + "Result.xls",sheet_name ='Sheet1', na_values=['NA'])
 
     #print(df1.keys())
 
@@ -28,4 +34,4 @@ def fileop():
     writer = pd.ExcelWriter(str(Folder) + "/" + str(R1) + ".xls", engine=None)
     df1.to_excel(writer, sheet_name='Sheet1')
     writer.save()
-    return df1.keys()
+    return df1

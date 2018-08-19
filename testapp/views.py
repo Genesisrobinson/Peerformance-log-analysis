@@ -6,6 +6,9 @@ from django.template import RequestContext
 from django.template import loader
 from django.http import Http404
 from .fileoperations import fileop
+from .MGMautomatio import final
+
+
 
 import json
 
@@ -22,14 +25,17 @@ def search(request):
         #message = 'You searched for: %r' % request.GET['x'] + request.GET['y']
         a=request.GET['x']
         b=request.GET['y']
-        print(request.GET)
+        print(a)
+        print(b)
         if (a==b):
             message="both strings are same"
             message1="test message"
-            logs=fileop()
+            list=fileop(a,b)
+            #print(list)
         else:
-           message = 'not matchin'
-    logs1 = {'name':[logs],}
+            list = final(a, b)
+            message = 'not matchin'
+    logs1 = {'name':[list],}
 
     #return HttpResponse(logs)
     return render_to_response("testapp/search_form1.html", {'logs1': logs1})
