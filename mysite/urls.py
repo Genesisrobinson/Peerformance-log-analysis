@@ -16,6 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path,include
 from django.conf.urls import include, url
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 
 urlpatterns = [
@@ -25,3 +26,7 @@ urlpatterns = [
     path('testapp/', include('testapp.urls')),
     url(r'^', include('testapp.urls')),
 ]
+
+
+
+

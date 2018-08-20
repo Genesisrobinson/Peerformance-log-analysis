@@ -1,4 +1,11 @@
+<head>
+    {% load static %}
+  <link rel="stylesheet" type="text/css" href="{% static 'testapp/style.css' %}">
+</head>
+
 <H1>hello</H1>
+ {% load static %}
+ <link rel="stylesheet" type="text/css" href="{% static 'testapp/style.css' %}">
 {% if logs1 %}
     {% for key, value in logs1.items  %}
        {{value}}
