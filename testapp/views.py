@@ -8,6 +8,7 @@ from django.template import loader
 from django.http import Http404
 from .fileoperations import fileop
 from .MGMautomatio import final
+from .MGMtestautomation import generateTestSummary
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import authentication, permissions
@@ -32,24 +33,11 @@ def search(request):
         b=request.GET['y']
         print(a)
         print(b)
-        if (a==b):
-            message="both strings are same"
-            message1="test message"
-            #list=fileop(a,b)
-            #print(list)
-            logs1 = {'name': "Genesis",
-                     "age": 47,
-                     }
-        else:
-            list = final(a, b)
-            message = 'not matchin'
+        message="both strings are same"
+        list=generateTestSummary(a,b)
+        logs1 = {"name":[list],}
 
-            logs1 = {"name":[list],}
-
-
-    #return HttpResponse(logs)
-    # return render_to_response("testapp/search_form1.html", {'logs1': logs1})
-    return JsonResponse(logs1)
+    return render_to_response("testapp/search_form1.html", {'logs1': logs1})
 
 
 class ChartData(APIView):
