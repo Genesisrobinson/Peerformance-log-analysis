@@ -448,10 +448,10 @@ function w3_getStyleValue(elmnt,style) {
   <div style="overflow:auto;">
     <div class="w3-bar w3-left" style="width:100%;overflow:hidden;height:44px">
       <a href='javascript:void(0);' class='topnav-icons fa fa-menu w3-hide-large w3-left w3-bar-item w3-button' onclick='open_menu()' title='Menu'></a>
-      <a class="w3-bar-item w3-button" href='/html/default.asp' title='HTML Tutorial'>HTML</a>
-      <a class="w3-bar-item w3-button" href='/css/default.asp' title='CSS Tutorial'>CSS</a>
-      <a class="w3-bar-item w3-button" href='/js/default.asp' title='JavaScript Tutorial'>JAVASCRIPT</a>
-      <a class="w3-bar-item w3-button" href='/sql/default.asp' title='SQL Tutorial'>SQL</a>
+      <a class="w3-bar-item w3-button" href='/html/default.asp' title='HTML Tutorial'>DMP</a>
+      <a class="w3-bar-item w3-button" href='/css/default.asp' title='CSS Tutorial'>ICE</a>
+      <a class="w3-bar-item w3-button" href='/js/default.asp' title='JavaScript Tutorial'>Mystique</a>
+      <a class="w3-bar-item w3-button" href='/sql/default.asp' title='SQL Tutorial'>Others</a>
     </div>
     <div id='nav_tutorials' class='w3-bar-block w3-card-2' style="display:none;">
       <span onclick='w3_close_nav("tutorials")' class='w3-button w3-xlarge w3-right' style="position:absolute;right:0;font-weight:bold;">&times;</span>
@@ -640,16 +640,7 @@ function w3_getStyleValue(elmnt,style) {
 
 <hr>
 
-<h2>File prcessing is done  </h2>
-<ul>
-{% if logs1 %}
-    {% for key, value in logs1.items  %}
-       {{value}}
-    {% endfor %}
-{% else %}
-    <H1>There are no logs present.</H1>
-{% endif %}
-</ul>
+
 <hr>
 
 

@@ -146,3 +146,5 @@ def final(a,b):
     writer.save()
     return ret.keys()
 
+#abc=final("/Users/genesisrobinson/Documents/Excel/MGM","/Users/genesisrobinson/Documents/Excel/MGM/result/Result2")
+#print(abc)

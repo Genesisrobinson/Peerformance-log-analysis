@@ -14,6 +14,8 @@ from rest_framework.response import Response
 from rest_framework import authentication, permissions
 from django.contrib.auth.models import User
 from django.views.generic import View
+from django.http import HttpResponseRedirect
+
 
 
 
@@ -26,6 +28,9 @@ import json
 def search_form(request):
     return render(request, 'testapp/search_form.html')
 
+def w3school_form(request):
+    return render(request, 'testapp/w3school.html')
+
 def search(request):
     if 'x' in request.GET:
         #message = 'You searched for: %r' % request.GET['x'] + request.GET['y']
@@ -34,10 +39,12 @@ def search(request):
         print(a)
         print(b)
         message="both strings are same"
-        list=generateTestSummary(a,b)
+        #list=generateTestSummary(a,b)
+        list=final(a,b)
         logs1 = {"name":[list],}
 
     return render_to_response("testapp/search_form1.html", {'logs1': logs1})
+    #return HttpResponse("data processed")
 
 
 class ChartData(APIView):
