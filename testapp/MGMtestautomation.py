@@ -222,7 +222,7 @@ def generateTestSummary(a,b):
     result.to_excel(writer,sheet_name='sheet1')
     df4.to_excel(writer,sheet_name='Summary')
     writer.save()
-    return result.keys()
+    return df4
 
 #folder = 'D:/report/tmp/DMP/'
 #resultdir = 'D:/report/result'

@@ -17,6 +17,7 @@ urlpatterns = [
     url('w3school/', views.w3school_form, name='w3school'),
     path('search/', views.search, name='search'),
     path('chart/data/', views.ChartData.as_view()),
+    path('mobile/data/', views.MobileData.as_view()),
     url(r'^api/data/$', views.get_data, name='api-data'),
     url(r'^$', views.HomeView.as_view(), name='home'),
 ]

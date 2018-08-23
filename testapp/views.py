@@ -15,7 +15,7 @@ from rest_framework import authentication, permissions
 from django.contrib.auth.models import User
 from django.views.generic import View
 from django.http import HttpResponseRedirect
-
+from .MobileLogprocessing import summaryview
 
 
 
@@ -40,10 +40,17 @@ def search(request):
         print(b)
         message="both strings are same"
         #list=generateTestSummary(a,b)
-        list=final(a,b)
-        logs1 = {"name":[list],}
+        #list=final(a,b)
+        labels = ["Users", "Blue", "Yellow", "Green", "Purple", "Orange"]
+        default_items = [{20, 23, 23, 3, 12, 2},{20, 23, 23, 3, 12, 2},{20, 23, 34, 3, 12, 2}]
+        data = {
+            "labels": labels,
+            "default": default_items,
+        }
+        #logs1 = {"name":[list],}
 
-    return render_to_response("testapp/search_form1.html", {'logs1': logs1})
+    return render_to_response("testapp/search_form1.html", {'data':data})
+    #return render_to_response("testapp/search_form1.html", logs1, context_instance=RequestContext(request))
     #return HttpResponse("data processed")
 
 
@@ -61,6 +68,20 @@ class ChartData(APIView):
         }
         return Response(data)
 
+class MobileData(APIView):
+    authentication_classes = []
+    permission_classes = []
+
+    def get(self, request, format=None):
+        qs_count = User.objects.all().count()
+        pivot=summaryview()
+        endpoint = pivot["endpoint"]
+        time=pivot["time"]
+        data = {
+                "endpoint": endpoint,
+                "time": time,
+        }
+        return Response(data)
 def get_data(request, *args, **kwargs):
     data = {
         "sales": 100,
