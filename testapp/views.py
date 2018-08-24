@@ -60,8 +60,8 @@ class ChartData(APIView):
 
     def get(self, request, format=None):
         qs_count = User.objects.all().count()
-        labels = ["Users", "Blue", "Yellow", "Green", "Purple", "Orange"]
-        default_items = [qs_count, 23, 23, 3, 12, 2]
+        labels = ["Users", "Blue", "Yellow", "Green", "Purple", "Orange","Users1", "Blue", "Yellow", "Green", "Purple", "Orange"]
+        default_items = [qs_count, 23, 23, 3, 12, 2,23, 23, 3, 12, 2.34]
         data = {
                 "labels": labels,
                 "default": default_items,
@@ -75,11 +75,11 @@ class MobileData(APIView):
     def get(self, request, format=None):
         qs_count = User.objects.all().count()
         pivot=summaryview()
-        endpoint = pivot["endpoint"]
-        time=pivot["time"]
+        labels = pivot["endpoint"]
+        default_items=pivot["time"]
         data = {
-                "endpoint": endpoint,
-                "time": time,
+                "labels": labels,
+                "default": default_items,
         }
         return Response(data)
 def get_data(request, *args, **kwargs):
