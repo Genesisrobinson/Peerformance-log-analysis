@@ -57,5 +57,5 @@ def summaryview(fileFolder="D:/report/Mobile/logs_08092018/logs_08092018.csv"):
 
 #fileName = 'D:/report/Mobile/logs_08092018/logs_08092018.csv'
 
-pivot=summaryview()
-print(pivot)
+#pivot=summaryview()
+#print(pivot)

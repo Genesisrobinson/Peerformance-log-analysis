@@ -10,6 +10,7 @@ from .fileoperations import fileop
 from .MGMautomatio import final
 from .MGMtestautomation import generateTestSummary
 from .MobileLogprocessing import summaryview
+from .MobileLogsProcessor import processMobileLogs
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import authentication, permissions
@@ -17,6 +18,7 @@ from django.contrib.auth.models import User
 from django.views.generic import View
 from django.http import HttpResponseRedirect
 from .MobileLogprocessing import summaryview
+from .models import endpointavgtime
 
 
 
@@ -37,8 +39,10 @@ def search(request):
         #message = 'You searched for: %r' % request.GET['x'] + request.GET['y']
         a=request.GET['x']
         print(a)
-        pivot=summaryview(a)
-
+        [df1, df2, df3, df4, df5, df6, df7, df8] = processMobileLogs(a)
+        for x in df1.itertuples():
+            x=endpointavgtime.objects.create(endpoint=x.endpoint,time=x.averageResponseTime)
+            x.save()
         returnmessage = str(a) + str(" ") + "is successfully processed"
         data = {
            "response": returnmessage,
@@ -67,12 +71,11 @@ class MobileData(APIView):
 
     def get(self, request, format=None):
         qs_count = User.objects.all().count()
-        pivot = summaryview()
-        labels = pivot["endpoint"]
-        default_items=pivot["time"]
+        endpoint = endpointavgtime.objects.values_list("endpoint", flat=True)
+        time = endpointavgtime.objects.values_list("time", flat=True)
         data = {
-                "labels": labels,
-                "default": default_items,
+                "labels": endpoint,
+                "default": time,
         }
         return Response(data)
 def get_data(request, *args, **kwargs):
