@@ -5,7 +5,8 @@ from django.db import models
 # Create your models here.
 from django.db import models
 
-class folder(models.Model):
-    name=models.CharField(max_length=50)
+class endpointavgtime(models.Model):
+    endpoint=models.CharField(max_length=300)
+    time=models.FloatField(default=0.0)
     def __str__(self):
-         return "folder: {}".format(self.name)
+         return "endpointavgtime: {}".endpoint(self.name)

@@ -9,6 +9,7 @@ from django.http import Http404
 from .fileoperations import fileop
 from .MGMautomatio import final
 from .MGMtestautomation import generateTestSummary
+from .MobileLogprocessing import summaryview
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import authentication, permissions
@@ -35,23 +36,15 @@ def search(request):
     if 'x' in request.GET:
         #message = 'You searched for: %r' % request.GET['x'] + request.GET['y']
         a=request.GET['x']
-        b=request.GET['y']
         print(a)
-        print(b)
-        message="both strings are same"
-        #list=generateTestSummary(a,b)
-        #list=final(a,b)
-        labels = ["Users", "Blue", "Yellow", "Green", "Purple", "Orange"]
-        default_items = [{20, 23, 23, 3, 12, 2},{20, 23, 23, 3, 12, 2},{20, 23, 34, 3, 12, 2}]
-        data = {
-            "labels": labels,
-            "default": default_items,
-        }
-        #logs1 = {"name":[list],}
+        pivot=summaryview(a)
 
+        returnmessage = str(a) + str(" ") + "is successfully processed"
+        data = {
+           "response": returnmessage,
+        }
     return render_to_response("testapp/search_form1.html", {'data':data})
-    #return render_to_response("testapp/search_form1.html", logs1, context_instance=RequestContext(request))
-    #return HttpResponse("data processed")
+
 
 
 class ChartData(APIView):
@@ -74,7 +67,7 @@ class MobileData(APIView):
 
     def get(self, request, format=None):
         qs_count = User.objects.all().count()
-        pivot=summaryview()
+        pivot = summaryview()
         labels = pivot["endpoint"]
         default_items=pivot["time"]
         data = {

@@ -640,13 +640,12 @@ function w3_getStyleValue(elmnt,style) {
 
 <hr>
 
-<h2>File prcessing is done  </h2>
+
 <ul>
 
 {% if data %}
-    {% for key, value in data.items  %}
-        <h1>key{{key}}</h1>
-        <h2>Value:{{value}}</h2>
+    {% for value in data.items  %}
+        {{value}}
     {% endfor %}
 {% else %}
     <H1>There are no logs present.</H1>
