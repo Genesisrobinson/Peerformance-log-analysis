@@ -87,11 +87,14 @@ def processMobileLogs(fileName):
 
 
 
-#fileName = 'D:/report/Mobile/logs_08092018/logs_08092018.csv'
-
-#[df1, df2, df3, df4, df5, df6, df7, df8] = processMobileLogs(fileName)
+fileName = 'D:/report/Mobile/logs_08092018/logs_08092018.csv'
+#D:/webapp/mysite/medialogs_08092018.csv
+[df1, df2, df3, df4, df5, df6, df7, df8] = processMobileLogs(fileName)
 #print('Rows and Columns in the Dataframe returned : ', df1.shape, df2.shape, df3.shape, df4.shape, df5.shape, df6.shape, df7.shape, df8.shape)
 #print(df1)
 #print(df2)
 #print(df3)
-#print(df7)
+#print(df4)
+#print(df5)
+print("df6----")
+print(df6)
