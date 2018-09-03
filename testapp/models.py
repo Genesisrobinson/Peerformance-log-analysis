@@ -41,6 +41,18 @@ class endpointavgtime5(models.Model):
     def __str__(self):
          return "endpointavgtime5: {}".format(self.endpoint)
 
+class endpointavgtime6(models.Model):
+    endpoint=models.CharField(max_length=300)
+    time=models.FloatField(default=0.0)
+    def __str__(self):
+         return "endpointavgtime6: {}".format(self.endpoint)
+
+class endpointavgtime7(models.Model):
+    endpoint=models.CharField(max_length=300)
+    time=models.FloatField(default=0.0)
+    def __str__(self):
+         return "endpointavgtime7: {}".format(self.endpoint)
+
 class List(models.Model):
     name=models.CharField(max_length=50)
     def __str__(self):

@@ -9,7 +9,6 @@ from django.http import Http404
 from .fileoperations import fileop
 from .MGMautomatio import final
 from .MGMtestautomation import generateTestSummary
-from .MobileLogprocessing import summaryview
 from .MobileLogsProcessor import processMobileLogs
 from rest_framework.views import APIView
 from rest_framework.response import Response
@@ -17,8 +16,7 @@ from rest_framework import authentication, permissions
 from django.contrib.auth.models import User
 from django.views.generic import View
 from django.http import HttpResponseRedirect
-from .MobileLogprocessing import summaryview
-from .models import endpointavgtime,endpointavgtime1,endpointavgtime2,endpointavgtime3,endpointavgtime4,endpointavgtime5
+from .models import endpointavgtime,endpointavgtime1,endpointavgtime2,endpointavgtime3,endpointavgtime4,endpointavgtime5,endpointavgtime6,endpointavgtime7
 from django.shortcuts import render
 from django.http import HttpResponseRedirect
 from .forms import UploadFileForm
@@ -35,8 +33,8 @@ import json
 def search_form(request):
     return render(request, 'testapp/search_form.html')
 
-def w3school_form(request):
-    return render(request, 'testapp/w3school.html')
+def home(request):
+    return render(request, 'testapp/home.html')
 
 def search(request):
 
@@ -108,6 +106,17 @@ def simple_upload(request):
             x = endpointavgtime5.objects.create(endpoint=x.level, time=x.transactionCount)
             x.save()
 
+        deleteobjects = endpointavgtime6.objects.all()
+        deleteobjects.delete()
+        for x in df7.itertuples():
+            x = endpointavgtime6.objects.create(endpoint=x.endpoint, time=x.transactionCount)
+            x.save()
+
+        deleteobjects = endpointavgtime7.objects.all()
+        deleteobjects.delete()
+        for x in df8.itertuples():
+            x = endpointavgtime7    .objects.create(endpoint=x.endpoint, time=x.transactionCount)
+            x.save()
 
         return render(request, 'testapp/search_form.html', {
             'uploaded_file_url': uploaded_file_url
@@ -208,6 +217,34 @@ class MobileData5(APIView):
         }
         return Response(data)
 
+class MobileData6(APIView):
+    authentication_classes = []
+    permission_classes = []
+
+    def get(self, request, format=None):
+        qs_count = User.objects.all().count()
+        endpoint = endpointavgtime6.objects.values_list("endpoint", flat=True)
+        time = endpointavgtime6.objects.values_list("time", flat=True)
+        data = {
+                "labels": endpoint,
+                "default": time,
+        }
+        return Response(data)
+
+class MobileData7(APIView):
+    authentication_classes = []
+    permission_classes = []
+
+    def get(self, request, format=None):
+        qs_count = User.objects.all().count()
+        endpoint = endpointavgtime7.objects.values_list("endpoint", flat=True)
+        time = endpointavgtime7.objects.values_list("time", flat=True)
+        data = {
+                "labels": endpoint,
+                "default": time,
+        }
+        return Response(data)
+
 def get_data(request, *args, **kwargs):
     data = {
         "sales": 100,
@@ -227,7 +264,15 @@ def graph3(request):
 
 def graph4(request):
     return render(request, 'testapp/graph4.html')
+
 def graph5(request):
     return render(request, 'testapp/graph5.html')
+
 def graph6(request):
     return render(request, 'testapp/graph6.html')
+
+def graph7(request):
+    return render(request, 'testapp/graph7.html')
+
+def graph8(request):
+    return render(request, 'testapp/graph8.html')

@@ -29,7 +29,7 @@ function setChart(){
     data: {
         labels: labels,
         datasets: [{
-            label: 'response time',
+            label: 'Error mean_time',
             data: defaultData,
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
@@ -166,7 +166,7 @@ function setChart(){
 
     <div class='col-sm-20' url-endpoint='{% url "api-data" %}' >
         <div class='col-sm-20'>
-            <canvas id="myChart2" width="400" height="400"></canvas>
+            <canvas id="myChart2" width="400" height="300"></canvas>
         </div>
 
     </div>
