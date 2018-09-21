@@ -12,4 +12,4 @@ admin.site.register(endpointavgtime3)
 admin.site.register(endpointavgtime4)
 admin.site.register(endpointavgtime5)
 admin.site.register(endpointavgtime6)
-admin.site.register(endpointavgtime7)
+

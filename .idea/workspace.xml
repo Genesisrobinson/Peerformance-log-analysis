@@ -1,42 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3b04975-ecc2-4d10-846e-f7db28525771" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/logs_08092018_42F2ClO.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/logs_08092018_5A4moFQ.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/logs_08092018_6vftWwL.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/logs_08092018_9Bt4lBL.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/logs_08092018_ATbmQdW.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/logs_08092018_KvGcnG3.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/logs_08092018_ZjbSeiB.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/logs_08092018_a50qQf1.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/logs_08092018_d4HFYI1.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/logs_08092018_gfBHqSt.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/logs_08092018_vBP1eNl.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/logs_08092018_x2wXOoL.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/logs_08092018_yI0HNZZ.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testapp/MobileLogprocessing.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testapp/templates/testapp/base original.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testapp/templates/testapp/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testapp/templates/testapp/index1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testapp/templates/testapp/indexold.html" afterPath="" />
+    <list default="true" id="89356e78-1a79-48e6-9e07-d4a64625aca5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testapp/templates/testapp/graph6backup.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/media/logs_08092018.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/media/logs_08092018_tUmScrl.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/media/logs_08092018_xvpNXHx.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testapp/MobileLogsProcessor backup.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testapp/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testapp/migrations/0002_endpointavgtime1_endpointavgtime2_endpointavgtime3_endpointavgtime4_endpointavgtime5.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testapp/migrations/0003_list.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testapp/migrations/0004_endpointavgtime6_endpointavgtime7.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/mysite.iml" afterPath="$PROJECT_DIR$/.idea/mysite.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/settings.py" afterPath="$PROJECT_DIR$/mysite/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/urls.py" afterPath="$PROJECT_DIR$/mysite/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testapp/AuroraPerfAnalytics.py" afterPath="$PROJECT_DIR$/testapp/AuroraPerfAnalytics.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testapp/MobileLogsProcessor.py" afterPath="$PROJECT_DIR$/testapp/MobileLogsProcessor.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testapp/admin.py" afterPath="$PROJECT_DIR$/testapp/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testapp/forms.py" afterPath="$PROJECT_DIR$/testapp/forms.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testapp/models.py" afterPath="$PROJECT_DIR$/testapp/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testapp/templates/testapp/base.html" afterPath="$PROJECT_DIR$/testapp/templates/testapp/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testapp/templates/testapp/graph1.html" afterPath="$PROJECT_DIR$/testapp/templates/testapp/graph1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testapp/templates/testapp/graph2.html" afterPath="$PROJECT_DIR$/testapp/templates/testapp/graph2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testapp/templates/testapp/graph3.html" afterPath="$PROJECT_DIR$/testapp/templates/testapp/graph3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testapp/templates/testapp/graph4.html" afterPath="$PROJECT_DIR$/testapp/templates/testapp/graph4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testapp/templates/testapp/graph5.html" afterPath="$PROJECT_DIR$/testapp/templates/testapp/graph5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testapp/templates/testapp/graph6.html" afterPath="$PROJECT_DIR$/testapp/templates/testapp/graph6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testapp/templates/testapp/home.html" afterPath="$PROJECT_DIR$/testapp/templates/testapp/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testapp/templates/testapp/search_form.html" afterPath="$PROJECT_DIR$/testapp/templates/testapp/search_form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testapp/templates/testapp/search_form1.html" afterPath="$PROJECT_DIR$/testapp/templates/testapp/search_form1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testapp/urls.py" afterPath="$PROJECT_DIR$/testapp/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testapp/views.py" afterPath="$PROJECT_DIR$/testapp/views.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/testapp/templates/testapp/w3school.html" afterPath="$PROJECT_DIR$/testapp/templates/testapp/home.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/testapp/templates/testapp/graph1 original.html" afterPath="$PROJECT_DIR$/testapp/templates/testapp/graph1backup.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/testapp/templates/testapp/graph6original.html" afterPath="$PROJECT_DIR$/testapp/templates/testapp/graph6.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,28 +38,39 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="mysite" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/polls/urls.py">
+      <file leaf-file-name="auroragraph5.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/auroragraph5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/polls/views.py">
+        <entry file="file://$PROJECT_DIR$/testapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="801">
+              <caret line="490" column="49" lean-forward="false" selection-start-line="490" selection-start-column="49" selection-end-line="490" selection-end-column="49" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#0#47#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alertlogupload.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/alertlogupload.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11850">
+              <caret line="474" column="0" lean-forward="false" selection-start-line="474" selection-start-column="0" selection-end-line="474" selection-end-column="72" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -74,78 +78,70 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testapp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-75">
-              <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+            <state relative-caret-position="1150">
+              <caret line="62" column="52" lean-forward="false" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aurorabase.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/aurorabase.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11850">
+              <caret line="474" column="72" lean-forward="false" selection-start-line="474" selection-start-column="72" selection-end-line="474" selection-end-column="72" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testapp/forms.py">
+      <file leaf-file-name="aurora.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/aurora.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="11850">
+              <caret line="474" column="72" lean-forward="false" selection-start-line="474" selection-start-column="72" selection-end-line="474" selection-end-column="72" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testapp/views.py">
+      <file leaf-file-name="aurorainput.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/aurorainput.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="121" column="19" lean-forward="false" selection-start-line="121" selection-start-column="13" selection-end-line="121" selection-end-column="19" />
+            <state relative-caret-position="11850">
+              <caret line="474" column="48" lean-forward="false" selection-start-line="474" selection-start-column="32" selection-end-line="474" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/polls/templates/polls/detail.html">
+      <file leaf-file-name="alertloganalysis.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/alertloganalysis.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/polls/templates/polls/form.html">
+      <file leaf-file-name="auroroabase.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/auroroabase.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="11800">
+              <caret line="472" column="0" lean-forward="false" selection-start-line="472" selection-start-column="0" selection-end-line="472" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/polls/templates/polls/Home.html">
+      <file leaf-file-name="simple_upload.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/simple_upload.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search_form.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/search_form.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="501" column="32" lean-forward="false" selection-start-line="501" selection-start-column="26" selection-end-line="501" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MGMautomatio.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testapp/MGMautomatio.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-225">
-              <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+            <state relative-caret-position="400">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -163,36 +159,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>overflow-x</find>
-      <find>css.</find>
-      <find>css.htm</find>
-      <find>MGM Performance Analytics Platform</find>
-      <find>x</find>
-      <find>scroll</find>
-      <find>testapp/css.html</find>
-      <find>auto</find>
-      <find>overflow</find>
-      <find>DIV class='w3-cont</find>
-      <find>MGM</find>
-      <find>chartWrapper</find>
-      <find>myChart2</find>
-      <find>MGM Per</find>
-      <find>level</find>
-      <find>re</find>
-      <find>res</find>
-      <find>type</find>
-      <find>leve</find>
-      <find>erro</find>
-      <find>Error Cou</find>
-      <find>we</find>
-      <find>w3</find>
-      <find>home</find>
-      <find>DMP</find>
-      <find>multipart</find>
-      <find>simple_uploadsimple_upload</find>
-      <find>execute</find>
-      <find>runQuery</find>
-      <find>Upload</find>
+      <find>SomeForm</find>
+      <find>countries_view</find>
+      <find>response</find>
+      <find>return res</find>
+      <find>Mul</find>
+      <find>dict</find>
+      <find>print</find>
+      <find>get_my_choices</find>
+      <find>get_bound_field</find>
+      <find>MultiSelectField</find>
+      <find>reasons_for_childcare</find>
+      <find>EnrollmentApplication</find>
+      <find>CountryForm</find>
+      <find>form1</find>
+      <find>alertloganalysis</find>
+      <find>int</find>
+      <find>string</find>
+      <find>generateExcelCharts</find>
+      <find>aurorainput</find>
+      <find>xls</find>
+      <find>generateSummary</find>
+      <find>testapp_testapp_aurorasummary</find>
+      <find>df_server_summ</find>
+      <find>excel_fileExcelWriter</find>
+      <find>auror</find>
+      <find>reset</find>
+      <find>ExcelWriter</find>
+      <find>auroragraph5</find>
+      <find>dis</find>
+      <find>disttribution</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -201,67 +197,44 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/testapp/forms.py" />
-        <option value="$PROJECT_DIR$/testapp/templates/test.py" />
-        <option value="$PROJECT_DIR$/testapp/test.py" />
-        <option value="$PROJECT_DIR$/testapp/fileoperations.py" />
-        <option value="$PROJECT_DIR$/mysite/assets/style.css" />
-        <option value="$PROJECT_DIR$/mysite/assets/test.html" />
-        <option value="$PROJECT_DIR$/testapp/static/style.css" />
-        <option value="$PROJECT_DIR$/polls/templates/polls/Home.html" />
-        <option value="$PROJECT_DIR$/polls/templates/polls/index.html" />
-        <option value="$PROJECT_DIR$/polls/static/polls/style.css" />
-        <option value="$PROJECT_DIR$/testapp/static/testapp/style.css" />
-        <option value="$PROJECT_DIR$/testapp/static/testapp/w3.css" />
-        <option value="$PROJECT_DIR$/testapp/static/testapp/translateelement.css" />
-        <option value="$PROJECT_DIR$/testapp/static/testapp/default.css" />
-        <option value="$PROJECT_DIR$/testapp/static/testapp/default+en.css" />
-        <option value="$PROJECT_DIR$/testapp/templates/testapp/w3school/w3school.html" />
-        <option value="$PROJECT_DIR$/testapp/MGMautomatio.py" />
-        <option value="$PROJECT_DIR$/testapp/MGMtestautomation.py" />
-        <option value="$PROJECT_DIR$/testapp/MobileLogprocessing.py" />
-        <option value="$PROJECT_DIR$/testapp/templates/testapp/indexOLD.html" />
-        <option value="$PROJECT_DIR$/mysite/urls.py" />
-        <option value="$PROJECT_DIR$/testapp/templates/testapp/index1.html" />
-        <option value="$PROJECT_DIR$/polls/urls.py" />
-        <option value="$PROJECT_DIR$/polls/views.py" />
-        <option value="$PROJECT_DIR$/polls/templates/polls/form.html" />
-        <option value="$PROJECT_DIR$/mysite/settings.py" />
-        <option value="$PROJECT_DIR$/testapp/templates/testapp/simple_upload.html" />
-        <option value="$PROJECT_DIR$/testapp/templates/testapp/erroranalysis.html" />
-        <option value="$PROJECT_DIR$/testapp/templates/testapp/css.html" />
-        <option value="$PROJECT_DIR$/testapp/templates/testapp/baseold1.html" />
-        <option value="$PROJECT_DIR$/testapp/MobileLogsProcessor1.0.py" />
-        <option value="$PROJECT_DIR$/testapp/templates/testapp/graph2.html" />
-        <option value="$PROJECT_DIR$/testapp/templates/testapp/graph3.html" />
-        <option value="$PROJECT_DIR$/testapp/templates/testapp/graph4.html" />
-        <option value="$PROJECT_DIR$/testapp/templates/testapp/graph5.html" />
-        <option value="$PROJECT_DIR$/testapp/models.py" />
-        <option value="$PROJECT_DIR$/testapp/admin.py" />
-        <option value="$PROJECT_DIR$/testapp/templates/testapp/w3school.html" />
-        <option value="$PROJECT_DIR$/testapp/MobileLogsProcessor.py" />
-        <option value="$PROJECT_DIR$/testapp/views.py" />
-        <option value="$PROJECT_DIR$/testapp/templates/testapp/home.html" />
-        <option value="$PROJECT_DIR$/testapp/templates/testapp/index.html" />
-        <option value="$PROJECT_DIR$/testapp/templates/testapp/search_form.html" />
-        <option value="$PROJECT_DIR$/testapp/templates/testapp/search_form1.html" />
-        <option value="$PROJECT_DIR$/testapp/templates/testapp/graph8.html" />
-        <option value="$PROJECT_DIR$/testapp/templates/testapp/graph7.html" />
-        <option value="$PROJECT_DIR$/testapp/templates/testapp/base.html" />
-        <option value="$PROJECT_DIR$/testapp/templates/testapp/graph6.html" />
+        <option value="$PROJECT_DIR$/testapp/templates/testapp/auroragraph7 old.html" />
         <option value="$PROJECT_DIR$/testapp/templates/testapp/graph1.html" />
+        <option value="$PROJECT_DIR$/testapp/templates/testapp/auroragraph7color.html" />
+        <option value="$PROJECT_DIR$/testapp/templates/testapp/auroragraph5.html" />
+        <option value="$PROJECT_DIR$/testapp/templates/testapp/base.html" />
+        <option value="$PROJECT_DIR$/testapp/templates/testapp/auroragraph1.html" />
+        <option value="$PROJECT_DIR$/testapp/templates/testapp/auroragraph2.html" />
+        <option value="$PROJECT_DIR$/testapp/templates/testapp/auroragraph6.html" />
+        <option value="$PROJECT_DIR$/testapp/templates/testapp/auroragraph7.html" />
+        <option value="$PROJECT_DIR$/testapp/templates/testapp/auroragraph4.html" />
+        <option value="$PROJECT_DIR$/testapp/templates/testapp/auroragraph3.html" />
+        <option value="$PROJECT_DIR$/testapp/templates/testapp/search_form.html" />
+        <option value="$PROJECT_DIR$/testapp/test1.py" />
+        <option value="$PROJECT_DIR$/mysite/settings.py" />
+        <option value="$PROJECT_DIR$/testapp/templates/testapp/render_country.html" />
+        <option value="$PROJECT_DIR$/testapp/forms.py" />
+        <option value="$PROJECT_DIR$/testapp/templates/testapp/Alert Log Analysis.html" />
+        <option value="$PROJECT_DIR$/testapp/models.py" />
         <option value="$PROJECT_DIR$/testapp/AuroraPerfAnalytics.py" />
+        <option value="$PROJECT_DIR$/testapp/AuroraAlertLogsProcessing.py" />
+        <option value="$PROJECT_DIR$/testapp/templates/testapp/auroroabase.html" />
+        <option value="$PROJECT_DIR$/testapp/templates/testapp/alertlogupload.html" />
+        <option value="$PROJECT_DIR$/testapp/templates/testapp/aurora.html" />
+        <option value="$PROJECT_DIR$/testapp/templates/testapp/aurorabase.html" />
+        <option value="$PROJECT_DIR$/testapp/templates/testapp/aurorainput.html" />
+        <option value="$PROJECT_DIR$/testapp/templates/testapp/alertloganalysis.html" />
         <option value="$PROJECT_DIR$/testapp/urls.py" />
+        <option value="$PROJECT_DIR$/testapp/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-11" />
     <option name="y" value="-11" />
-    <option name="width" value="1942" />
-    <option name="height" value="1102" />
+    <option name="width" value="1934" />
+    <option name="height" value="1094" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
@@ -279,7 +252,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -290,35 +263,7 @@
             <path>
               <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
               <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="djangular" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
               <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="polls" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="polls" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="polls" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="polls" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
@@ -342,28 +287,18 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../mysite_V3" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\webapp\mysite\testapp\templates\testapp" />
-      <recent name="D:\webapp\mysite\testapp" />
-      <recent name="D:\webapp\mysite\mysite" />
-      <recent name="$PROJECT_DIR$/testapp/templates/testapp" />
-      <recent name="$PROJECT_DIR$/testapp/templates/testapp/w3school" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/testapp/static/testapp" />
-      <recent name="$PROJECT_DIR$/mysite/mysite" />
-      <recent name="D:\webapp\mysite\testapp" />
-      <recent name="D:\webapp\mysite\djangular\templates" />
-      <recent name="D:\webapp\mysite\djangular\templates\" />
+      <recent name="D:\webapp\Backup\mysite_V4\mysite\testapp\templates\testapp" />
+      <recent name="D:\webapp\Backup\mysite_V3\mysite\testapp\templates\testapp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -378,8 +313,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.AuroraPerfAnalytics">
-    <configuration name="AuroraPerfAnalytics" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.AuroraAlertLogsProcessing">
+    <configuration name="AuroraAlertLogsProcessing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -391,12 +326,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="mysite" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testapp/AuroraPerfAnalytics.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testapp/AuroraAlertLogsProcessing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="MGMautomatio" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -408,110 +343,32 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="mysite" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testapp/MGMautomatio.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testapp/test1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="MobileLogprocessing" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testapp" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="mysite" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testapp/MobileLogprocessing.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="MobileLogsProcessor" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testapp" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="mysite" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testapp/MobileLogsProcessor.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="MobileLogsProcessor1.0" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testapp" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="mysite" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testapp/MobileLogsProcessor1.0.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="urls" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testapp" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="mysite" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testapp/urls.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Python.urls" />
-      <item index="1" class="java.lang.String" itemvalue="Python.MobileLogprocessing" />
-      <item index="2" class="java.lang.String" itemvalue="Python.MGMautomatio" />
-      <item index="3" class="java.lang.String" itemvalue="Python.MobileLogsProcessor" />
-      <item index="4" class="java.lang.String" itemvalue="Python.MobileLogsProcessor1.0" />
-      <item index="5" class="java.lang.String" itemvalue="Python.AuroraPerfAnalytics" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Python.test1" />
+      <item index="1" class="java.lang.String" itemvalue="Python.AuroraAlertLogsProcessing" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.AuroraPerfAnalytics" />
-        <item index="1" class="java.lang.String" itemvalue="Python.MobileLogsProcessor" />
-        <item index="2" class="java.lang.String" itemvalue="Python.MobileLogsProcessor1.0" />
-        <item index="3" class="java.lang.String" itemvalue="Python.MGMautomatio" />
-        <item index="4" class="java.lang.String" itemvalue="Python.MobileLogprocessing" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.AuroraAlertLogsProcessing" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test1" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f3b04975-ecc2-4d10-846e-f7db28525771" name="Default" comment="" />
-      <created>1532495289734</created>
+      <changelist id="89356e78-1a79-48e6-9e07-d4a64625aca5" name="Default" comment="" />
+      <created>1536916981692</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1532495289734</updated>
+      <updated>1536916981692</updated>
     </task>
     <servers />
   </component>
@@ -519,23 +376,23 @@
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24918918" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25675675" sideWeight="0.7996942" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22711058" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972972" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41022593" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22235434" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25243244" sideWeight="0.2003058" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -543,343 +400,357 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="2" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/base.html">
+    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/auroragraph3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7377">
-          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="25" />
+        <state relative-caret-position="9075">
+          <caret line="363" column="28" lean-forward="false" selection-start-line="363" selection-start-column="28" selection-end-line="363" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/base.html">
+    <entry file="file://$PROJECT_DIR$/testapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="433" column="8" lean-forward="true" selection-start-line="433" selection-start-column="8" selection-end-line="433" selection-end-column="8" />
+        <state relative-caret-position="1800">
+          <caret line="106" column="22" lean-forward="true" selection-start-line="106" selection-start-column="22" selection-end-line="106" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/baseold1.html" />
-    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/base.html">
+    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/auroragraph7 old.html" />
+    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/graph2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/cssold.html" />
-    <entry file="file://$PROJECT_DIR$/testapp/MobileLogsProcessor backup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testapp/MobileLogsProcessor1.0.py" />
-    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/graph4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="31" column="37" lean-forward="false" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testapp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/index1.html" />
-    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/indexold.html" />
-    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/index.html" />
-    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11250">
-          <caret line="450" column="4" lean-forward="false" selection-start-line="450" selection-start-column="4" selection-end-line="453" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/base original.html" />
-    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/search_form1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11225">
-          <caret line="449" column="151" lean-forward="false" selection-start-line="449" selection-start-column="151" selection-end-line="449" selection-end-column="151" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangular/templates/djangular/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangular/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangular/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangular/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testapp/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testapp/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/graph8.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4200">
-          <caret line="168" column="42" lean-forward="false" selection-start-line="168" selection-start-column="42" selection-end-line="168" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/graph3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+        <state relative-caret-position="375">
+          <caret line="144" column="10" lean-forward="true" selection-start-line="140" selection-start-column="7" selection-end-line="144" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/graph7.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4375">
-          <caret line="175" column="0" lean-forward="false" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/css.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/graph2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2025">
-          <caret line="81" column="41" lean-forward="true" selection-start-line="41" selection-start-column="16" selection-end-line="81" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/graph1working.html" />
-    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/baseolder.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="506" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12650">
-          <caret line="506" column="0" lean-forward="true" selection-start-line="506" selection-start-column="0" selection-end-line="506" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/bootstrap_defaults.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/simple_upload.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/graph6original.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/graph5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="29" column="22" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/graph6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="42" column="9" lean-forward="false" selection-start-line="35" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/graph1 original.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3300">
-          <caret line="132" column="14" lean-forward="false" selection-start-line="33" selection-start-column="11" selection-end-line="132" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testapp/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="600">
+          <caret line="150" column="10" lean-forward="false" selection-start-line="145" selection-start-column="8" selection-end-line="150" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/graph1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6000">
-          <caret line="240" column="28" lean-forward="false" selection-start-line="240" selection-start-column="28" selection-end-line="240" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="509">
+          <caret line="149" column="18" lean-forward="true" selection-start-line="145" selection-start-column="7" selection-end-line="149" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/auroragraph7older.html" />
+    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/auroragraph7old.html" />
+    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/auroragraph7color.html" />
+    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="481" column="0" lean-forward="false" selection-start-line="481" selection-start-column="0" selection-end-line="481" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/auroragraph6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9075">
+          <caret line="363" column="28" lean-forward="false" selection-start-line="363" selection-start-column="28" selection-end-line="363" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/auroragraph7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9075">
+          <caret line="363" column="28" lean-forward="false" selection-start-line="363" selection-start-column="28" selection-end-line="363" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/auroragraph4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9075">
+          <caret line="363" column="28" lean-forward="false" selection-start-line="363" selection-start-column="28" selection-end-line="363" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/auroragraph3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9075">
+          <caret line="363" column="28" lean-forward="false" selection-start-line="363" selection-start-column="28" selection-end-line="363" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/auroragraph2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8825">
+          <caret line="353" column="0" lean-forward="false" selection-start-line="353" selection-start-column="0" selection-end-line="353" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../django-1.3/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../django-1.3/django/forms/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Users/gerobins.old/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/django/forms/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1594">
+          <caret line="408" column="21" lean-forward="false" selection-start-line="408" selection-start-column="21" selection-end-line="408" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testapp/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/graph6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/search_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="362" column="0" lean-forward="false" selection-start-line="362" selection-start-column="0" selection-end-line="481" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/search_form1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1670">
+          <caret line="506" column="0" lean-forward="true" selection-start-line="506" selection-start-column="0" selection-end-line="506" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/6BCDGJTP/AuroraAlertLogsProcessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/settingsold.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Users/gerobins.old/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/django/forms/fields.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="765" column="28" lean-forward="false" selection-start-line="765" selection-start-column="20" selection-end-line="765" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="138" column="23" lean-forward="false" selection-start-line="138" selection-start-column="23" selection-end-line="138" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../django-multiselectfield-master/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testapp/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testapp/MGMautomatio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testapp/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testapp/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testapp/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/auroragraph1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/render_country.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/graph1backup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/graph6backup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="145" column="30" lean-forward="false" selection-start-line="145" selection-start-column="6" selection-end-line="145" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testapp/MobileLogsProcessor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="100" column="9" lean-forward="true" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="9" />
+        <state relative-caret-position="450">
+          <caret line="95" column="39" lean-forward="false" selection-start-line="95" selection-start-column="12" selection-end-line="95" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testapp/AuroraPerfAnalytics.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="155" column="17" lean-forward="true" selection-start-line="155" selection-start-column="17" selection-end-line="155" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="233">
+          <caret line="94" column="4" lean-forward="true" selection-start-line="94" selection-start-column="4" selection-end-line="95" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/djangular/urls.py">
+    <entry file="file://$PROJECT_DIR$/testapp/fileoperations.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-327">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testapp/AuroraAlertLogsProcessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="97" column="23" lean-forward="true" selection-start-line="97" selection-start-column="23" selection-end-line="97" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/simple_upload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/urls.py">
+    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/auroroabase.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="20" />
+        <state relative-caret-position="11800">
+          <caret line="472" column="0" lean-forward="false" selection-start-line="472" selection-start-column="0" selection-end-line="472" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/alertlogupload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11850">
+          <caret line="474" column="0" lean-forward="false" selection-start-line="474" selection-start-column="0" selection-end-line="474" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/aurora.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11850">
+          <caret line="474" column="72" lean-forward="false" selection-start-line="474" selection-start-column="72" selection-end-line="474" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/aurorabase.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11850">
+          <caret line="474" column="72" lean-forward="false" selection-start-line="474" selection-start-column="72" selection-end-line="474" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/aurorainput.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11850">
+          <caret line="474" column="48" lean-forward="false" selection-start-line="474" selection-start-column="32" selection-end-line="474" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/auroragraph5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/alertloganalysis.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testapp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testapp/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testapp/MGMautomatio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225">
-          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testapp/templates/testapp/search_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="501" column="32" lean-forward="false" selection-start-line="501" selection-start-column="26" selection-end-line="501" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testapp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="121" column="19" lean-forward="false" selection-start-line="121" selection-start-column="13" selection-end-line="121" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polls/templates/polls/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polls/templates/polls/form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polls/templates/polls/Home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polls/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="1150">
+          <caret line="62" column="52" lean-forward="false" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="52" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/polls/views.py">
+    <entry file="file://$PROJECT_DIR$/testapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="801">
+          <caret line="490" column="49" lean-forward="false" selection-start-line="490" selection-start-column="49" selection-end-line="490" selection-end-column="49" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#47#0" expanded="true" />
           </folding>
         </state>
       </provider>

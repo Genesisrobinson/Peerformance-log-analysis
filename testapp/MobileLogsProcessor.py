@@ -92,6 +92,7 @@ def processMobileLogs(fileName):
                                     ['endpoint', 'time']]
     df_pivot_error_endpoint_count.rename(columns={'time': 'transactionCount'}, inplace=True)
 
+    print("processed")
     return [df_pivot_endpoint_mean_time,
             df_pivot_success_endpoint_mean_time,
             df_pivot_error_endpoint_mean_time,
@@ -105,3 +106,4 @@ def processMobileLogs(fileName):
 #fileName = 'D:/report/Mobile/logs_08092018/logs_08092018.csv'
 
 #[df1, df2, df3, df4, df5, df6, df7, df8] = processMobileLogs(fileName)
+
